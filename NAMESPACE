@@ -1,0 +1,15 @@
+importFrom("stats", "predict")
+importFrom("lubridate", "yday")
+importFrom("dplyr", "mutate")
+importFrom("dplyr", "%>%")
+importFrom("tsibble", "as_tsibble")
+importFrom("fabletools", "model")
+importFrom("generics", "forecast")
+importFrom("fable", "NNETAR")
+importFrom("fable", "AR")
+importFrom("vars", "VAR")
+importFrom("fable", "ETS")
+importFrom("fable", "ARIMA")
+
+
+
